@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modificar">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_below="@+id/txtIdProducto"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_marginTop="-653dp"
+        android:layout_marginBottom="673dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+
+        android:gravity="center_vertical"
+        android:text="MODIFICAR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtDescripcionProducto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtNombreProducto1"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese nueva descripcion"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnBorrarProductos"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtPrecioProducto1"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="52dp"
+        android:layout_toEndOf="@+id/btnModificarProductos"
+        android:layout_toRightOf="@+id/btnModificarProductos"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:text="ELIMINAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnModificarProductos"
+        android:layout_width="203dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtPrecioProducto1"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:text="MODIFICAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtPrecioProducto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtStockProducto1"
+        android:layout_marginTop="11dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese nuevo precio $"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtStockProducto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtFabricanteProducto1"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese nueva cantidad"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtNombreProducto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese nuevo nombre"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtFabricanteProducto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtDescripcionProducto1"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese nuevo distribuidor"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtIdProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btnBorrarProductos"
+        android:hint="ID"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_below="@+id/txtIdProducto"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+
+        android:text="© AppCRUD"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</RelativeLayout>

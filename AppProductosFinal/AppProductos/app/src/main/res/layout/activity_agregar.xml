@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnMostrarProductos"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-607dp"
+
+        android:layout_marginBottom="669dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="AGREGAR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtPrecioProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtStockProducto"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese Precio $"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtFabricanteProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtDescripcionProducto"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese Distribuidor"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtDescripcionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtNombreProducto"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Descripcion Corta"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese Nombre del Producto"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnMostrarProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGuardarProductos"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:text="VER TODOS LOS PRODUCTOS"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnGuardarProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrecioProducto"
+        android:layout_marginTop="52dp"
+
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:text="GUARDAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtStockProducto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtFabricanteProducto"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:hint="Ingrese Cantidad"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnMostrarProductos"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="0dp"
+
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="© AppCRUD EQUIPO 10"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
